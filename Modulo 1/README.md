@@ -3,7 +3,7 @@
 El presente proyecto es parte del BootCamp Fundamentos de Python C3, impartido por UCamp.
 Este primer proyecto me ayuda a reforzar los conocimientos iniciales del lenguaje de programación Python, las primeras instrucciones para mostrar datos en pantalla, así como la entrada de datos son de mucha ayuda cuando se interactúa con el usuario y se debe mostrar parte del proceso para continuar y que esté enterado cuando hay un error controlado, o bien, el resultado de cálculos.
 
-Para la captura de datos hize uso de un ciclo infinito, el cual solo se puede salir con la instrucción ***break***. La condición para salir de este ciclo, es que el dato no sea una cadena vacía para los datos que son cadenas string, y para los valores numéricos igualmente no sea una cadena vacía pero también sea mayor a cero.
+Para la captura de datos hize uso de un ciclo infinito usando ***while***, el cual solo se puede salir con la instrucción ***break***. La condición para salir de este ciclo, es que el dato no sea una cadena vacía para los datos que son cadenas string, y para los valores numéricos igualmente no sea una cadena vacía pero también sea mayor a cero. Se hace uso de ***input*** para solicitar al usuario la información.
 
 Para las cadenas de string se valida que no sean vacías y en caso contrario se muestra un mensaje al usuario para que continúe intentando capturar el dato.
 
