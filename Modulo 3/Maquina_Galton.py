@@ -24,6 +24,10 @@ def llenar_arreglo(total_canicas, obstaculos):
         for j in range(obstaculos):
             # Valor aleatorio de 0 ó 1
             canica_posicion_maquina += random.randint(0, 1)
+        # Asegurarse que la posición final no esté dentro de los límites del número de obstáculos
+        if canica_posicion_maquina >= obstaculos:
+            # Se alcanzó el límite y se asigna la última posición dentro del arreglo
+            canica_posicion_maquina = obstaculos-1
         # Posicion final despues del recorrido aleatorio entre el numero de obstáculos
         arreglo_maquina[canica_posicion_maquina] += 1
 
